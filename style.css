@@ -58,6 +58,14 @@ body {
 
     color: white;
 
+
+
+}
+
+
+.Join-img {
+
+    padding-left: 20px;
 }
 
 .Hero-section {
@@ -70,10 +78,7 @@ body {
 
 }
 
-.overall-padding {
 
-    padding: 20px;
-}
 
 .Hero-img {
     height: 300px;
@@ -120,7 +125,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding-top: 50px;
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .Grid-value img {
