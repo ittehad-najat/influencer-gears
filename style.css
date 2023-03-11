@@ -79,7 +79,7 @@ body {
 
     display: flex;
 
-    gap: 130px;
+
 
 
 }
@@ -182,7 +182,7 @@ body {
     .Grid-value {
 
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         padding: 10px;
 
     }
@@ -288,11 +288,14 @@ body {
 
     }
 
+    .Hero-section {
+        padding-left: 20px;
+    }
 
+    .Hero-Content {
 
-
-}
-
-
-
+        padding-top: 0;
+        position: relative;
+        top: 10%;
+    }
 }
