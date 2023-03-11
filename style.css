@@ -212,11 +212,14 @@ body {
 
         display: grid;
         grid-template-columns: repeat(3, 2fr);
+        margin-top: 3px;
+
     }
 
     .Hero-section {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+
     }
 
     .prebook-btn {
@@ -246,6 +249,13 @@ body {
 
     .Hero-p {
         padding-bottom: 15px;
+        padding-top: 0;
+    }
+
+    .hero-h2 {
+
+        font-size: 40px;
+        line-height: 45px;
     }
 
     .prebook-btn {
@@ -261,7 +271,8 @@ body {
         padding: 10px;
 
         border-radius: 17px;
-        margin-bottom: 0 color: white;
+        margin-bottom: 10px;
+        color: white;
     }
 
     .Hero-section {
@@ -283,6 +294,7 @@ body {
     .Nav-div h2 {
         font-size: 17px;
         padding-left: 5px;
+
     }
 
 
@@ -306,10 +318,29 @@ body {
         padding-left: 20px;
     }
 
-    .Hero-Content {
 
-        padding-top: 0;
-        position: relative;
-        top: 10%;
+    .Hero-section>div {
+        width: 100%;
+
     }
+
+    .Hero-Content {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+
+    .hero-h2 {
+
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .Hero-p {
+        padding-bottom: 15px;
+        padding-right: 20px;
+    }
+
 }
