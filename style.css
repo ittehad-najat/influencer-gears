@@ -79,17 +79,26 @@ body {
 
     display: flex;
 
+}
 
-
+.Hero-section>div {
+    width: 50%;
 
 }
 
 
-
 .Hero-img {
-    height: 300px;
-    width: 300px;
-    padding-bottom: ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero-img>img {
+    width: 100%;
+    max-width: 350px;
+
+
 
 }
 
@@ -105,6 +114,11 @@ body {
 .Hero-Content {
     width: 50%;
 
+}
+
+
+.Logo-section-main {
+    margin-bottom: 60px;
 }
 
 .Logo-section {
